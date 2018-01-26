@@ -1,0 +1,2 @@
+baseurl: http://deltasquare.github.io/Test
+jekyll serve --watch --baseurl=
