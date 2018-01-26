@@ -1,0 +1,562 @@
+﻿@charset"UTF-8";
+::-webkit-scrollbar { 
+    display: none; 
+}
+html {	/* Height and width van de gehele site */
+	max-width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+body {	/* Font family van de pagina */
+	font-family: Serif;
+	font-size: 20px;
+	font-weight: normal;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.bold {
+	font-weight:bolder;
+}
+
+.head1{	/* Titel van de site (Inez van der Meer Reintegratie) */
+	position: absolute;
+	top: 0.8%;
+	width: 75%;
+	left: 12.5%;
+	height: 8%;
+	padding-top:10px;
+	padding-bottom:-2px;
+	padding-left:15px;
+	padding-right:15px;
+	border-style: solid;
+	border-radius: 15px;
+	text-align:center;
+	font-family:inherit;
+    font-size: 45px;
+	font-weight: bolder;
+	background-color: #FFFFFF;
+	opacity: 0.75;
+	color: #000000;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	z-index:99999999999999;
+	
+}
+
+#kopjes {	/* Alle kopjes */
+	font-weight: bold;
+	z-index: 1;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#k1 {	/* Kopje 1 */
+	position: absolute;
+	top:57%;
+	left: 1.2%;
+	text-align: center;
+	width: 16%;
+	height: 36.5%;
+	padding: 10px;
+	border-radius: 15px;
+	border-style: solid;
+    outline: none;
+    background-color:#FFFFFF;
+	opacity: 0.95;
+    color: #000000;
+	z-index:10;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#button1 { /* De button bij kopje 1 */
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    text-align: center;
+    width: 40%;
+    height: 1.5%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    outline: none;
+    background-color: #ffbb00;
+    opacity: 0.95;
+    color: #ffffff;
+    z-index: 5;
+    align-self: center;
+    font-size: 75%;
+    cursor: pointer;	/* Als je over button 1 gaat wordt de muis een handje */
+}
+#button1 {
+    color: white;
+    -webkit-transition: color 0.75s;
+    -moz-transition:    color 0.75s;
+    transition:         color 0.75s;
+}
+
+#button1:hover {	/* Als je je muis over kopje 1 houdt, dan: */
+    color: black;
+}
+
+#k2 {
+	position: absolute;
+	top:57%;
+	left: 21.2%;
+	text-align: center;
+	width: 16%;
+	height: 36.5%;
+	padding: 10px;
+	border-radius: 15px;
+	 
+	border-style: solid;
+    outline: none;
+    background-color:#FFFFFF;
+	opacity: 0.95;
+    color: #000000;
+    z-index: 10;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#button2 {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    text-align: center;
+    width: 40%;
+    height: 1.5%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    outline: none;
+    background-color: #ffbb00;
+    opacity: 0.95;
+    color: #ffffff;
+    align-self: center;
+    font-size: 75%;
+    cursor: pointer;
+	z-index: 5;
+}
+#button2 {
+    color: white;
+    -webkit-transition: color 0.75s;
+    -moz-transition:    color 0.75s;
+    transition:         color 0.75s;
+}
+
+#button2:hover {
+    color: black;
+}
+
+#k3 {
+	position: absolute;
+	top:57%;
+	left: 41.2%;
+	text-align: center;
+	width: 16%;
+	height: 36.5%;
+	padding: 10px;
+	border-radius: 15px;
+	 
+	border-style: solid;
+    outline: none;
+    background-color:#FFFFFF;
+	opacity: 0.95;
+    color: #000000;
+    z-index: 10;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#button3 {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    text-align: center;
+    width: 40%;
+    height: 1.5%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    outline: white;
+    background-color: #ffbb00;
+    opacity: 0.95;
+    color: #ffffff;
+    align-self: center;
+    font-size: 75%;
+    cursor: pointer;
+	z-index: 5;
+}
+
+#button3 {
+    color: white;
+    -webkit-transition: color 0.75s;
+    -moz-transition:    color 0.75s;
+    transition:         color 0.75s;
+}
+
+#button3:hover {
+    color: black;
+}
+
+
+#k4 {
+	position: absolute;
+	top:57%;
+	left: 61.2%;
+	text-align: center;
+	width: 16%;
+	height: 36.5%;
+	padding: 10px;
+	border-radius: 15px;
+	 
+	border-style: solid;
+    outline: none;
+    background-color:#FFFFFF;
+	opacity: 0.95;
+    color: #000000;
+	z-index:10;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#button4 {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    text-align: center;
+    width: 40%;
+    height: 1.5%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    outline: none;
+    background-color: #ffbb00;
+    opacity: 0.95;
+    color: #ffffff;
+    align-self: center;
+    font-size: 75%;
+    cursor: pointer;
+	z-index: 5;
+}
+#button4 {
+   color: white;
+    -webkit-transition: color 0.75s;
+    -moz-transition:    color 0.75s;
+    transition:         color 0.75s;
+}
+
+#button4:hover {
+    color: black;
+}
+
+#k5 {
+	position: absolute;
+	top:57%;
+	left: 81.2%;
+	text-align: center;
+	width: 16%;
+	height: 36.5%;
+	padding: 10px;
+	border-radius: 15px;
+	 
+	border-style: solid;
+    outline: none;
+    background-color:#FFFFFF;
+	opacity: 0.95;
+    color: #000000;
+	z-index:10;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+#button5 {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    text-align: center;
+    width: 40%;
+    height: 1.5%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    outline: none;
+    background-color: #ffbb00;
+    opacity: 0.95;
+    color: #ffffff;
+    align-self: center;
+    font-size: 75%;
+    cursor: pointer;
+	z-index: 5;
+}
+#button5 {
+    color: white;
+    -webkit-transition: color 0.75s;
+    -moz-transition:    color 0.75s;
+    transition:         color 0.75s;
+}
+
+#button5:hover {
+    color: black;
+}
+
+#k6 {
+	position:absolute;
+	top: 16%;
+	left: 1.4%;
+	width: 92.5%;
+	height: 35%;
+	border-radius: 20px;
+	border-style:solid;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top:10px;
+	padding-bottom:20px;
+	background: #FFFFFF;
+	opacity: 0.95;
+	z-index:10;
+	text-align:center;
+	font-size:20px;
+	overflow-y:scroll;
+}
+.h6 {
+	text-align: center;
+	font-size: 2.2vw;
+	padding-top: 0%;
+}
+
+#button6 {
+    position: absolute;
+    bottom: 5%;
+    left: 44%;
+    text-align: center;
+    width: 8%;
+    height: 1%;
+    padding: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    outline: none;
+    background-color: #ffbb00;
+    opacity: 0.95;
+    color: #FFFFFF;
+    z-index: 5;
+    align-self: center;
+    font-size: inherit;
+    cursor: pointer;
+	font-size:1.0vw;
+}
+#button6 {
+    color: white;
+    -webkit-transition: color 0.6s;
+    -moz-transition:    color 0.6s;
+    transition:         color 0.6s;
+}
+
+#button6:hover {
+    color: black;
+}
+
+
+/*PAGINA 2 BEGINT HIER*/
+
+#WieBenIkKopje {
+    font-size: 22px;
+    position: absolute;
+    top: 112%;
+    left: 12%;
+    right: 12%;
+    height: auto;
+    width: 70%;
+    border-radius: 20px;
+    border-style: solid;
+    padding-top: -2px;
+    padding-bottom: -2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    text-align: center;
+    overflow: auto;
+}
+#tekst_wiebenik {
+    margin:auto;
+	line-height:125%;
+	word-spacing:3px;
+	font-size:26px;
+	position:absolute;
+	top:128%;
+	left:3%;
+	height:71%;
+	width:82%;
+	border-style:solid;
+	border-radius:20px;
+	padding-left:30px;
+	padding-right:20px;
+	padding-top:12px;
+	padding-bottom:30px;
+	background-color:#FFFFFF;
+	opacity:0.95;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	
+}
+.PlaatjeWieBenIk {
+	right:0.8%;
+	top:137%;
+	position:absolute;
+	height:44%;
+	width:16.5%;
+	clear:both;
+	overflow:auto;
+	border-style:solid;
+	border-radius:15px;
+	padding:0px;
+	z-index:100;
+	background-color:#FFFFFF;
+	opacity:1;
+}
+
+
+/*PAGINA 3 BEGINT HIER*/
+
+
+#Re-integratie_Tweede_Spoor_pagina {
+	top: 200%;
+	left:0%;
+	height:100%;
+	width:100%;
+	opacity:1;
+}
+
+#kopje_reintegratie {
+	font-size:35px;
+	position:absolute;
+	top:222%;
+	left:14%;
+	height:10%;
+	width:70%;
+	border-radius: 20px;
+	border-style:solid;
+	padding-top:20px;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+	background: #FFFFFF;
+	opacity: 0.95;
+	text-align:center;
+	z-index:20;
+}
+.tekst_reintegratie {
+	line-height:125%;
+	word-spacing:3px;
+	font-size:1.4vw;
+	position:absolute;
+	top:238%;
+	left:2%;
+	height:55%;
+	width:85%;
+	border-style:solid;
+	border-radius:20px;
+	padding-left:30px;
+	padding-right:20px;
+	padding-top:20px;
+	padding-bottom:30px;
+	background-color:#FFFFFF;
+	opacity:0.95;
+	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	
+}
+
+.scrolltest {
+	position: absolute;
+	top: 6000px;
+	padding: 20px;
+}
+
+.img1{
+	z-index: -1;
+	top: 0%;
+	left: 0%;
+	position: absolute;
+	height:100%;
+	width:100%;
+	opacity: 0.6;
+}
+.img2 {
+	z-index: -2;
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	height: 110%;
+	position:absolute;
+	background-color: #FF9933;
+	opacity: 0.82;
+}
+
+.img3 {
+	z-index: -2;
+	top: 210%;
+	left: 0%;
+	width: 100%;
+	height: 110%;
+	position:absolute;
+	opacity:0.8;
+}
+.img4 {
+	position:absolute;
+	top:320%;
+	z-index: -2;
+	left: 0%;
+	width: 100%;
+	height: 110%;
+	position:absolute;
+	opacity:0.5;
+}
+.img5 {
+	position:absolute;
+	top:430%;
+	z-index: -2;
+	top: 210%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	opacity: 1;
+}
+#upbutton {
+    position:fixed;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:all 0.6s ease;
+    -o-transition:all 0.6s ease;
+    transition:all 0.6s ease;
+    bottom:15px;
+    right:15px;
+    z-index:99999999999999;
+    border: thin;
+    outline: none;
+    background-color:#333;
+    color: #000000;
+    cursor: pointer;
+    border-radius:50px;
+    width:50px;
+    height:50px;
+    -webkit-transform: rotate(45deg);
+}
+#bottomwebsite {
+	visibility:hidden;
+	position:absolute;
+	top:600%;
+}
